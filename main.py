@@ -1,3 +1,2 @@
-# This is where we start writing the trafic light code.
+import tkinter
 
-print("Hello Traffic Light!")
