@@ -23,11 +23,12 @@ lightColor = "black"
 myCanvas = Canvas(root)
 myCanvas.pack()
 
-def redButton(lightSwitch):
-    print("Red Button is working")
-    red = True
-    if red == True:
-        lightSwitch = "red"
+# STILL WORKING ON IT
+# def redButton(lightSwitch):
+#     print("Red Button is working")
+#     red = True
+#     if red == True:
+#         lightSwitch = "red"
 
 # function for creating a circle
 def CreateCircle(x, y, r, canvas, fillColor = lightColor):
