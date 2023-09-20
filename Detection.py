@@ -2,7 +2,7 @@ import cv2
 
 # Load the cascade classifiers for detecting pedestrians and cars
 pedestrian_cascade = cv2.CascadeClassifier('haarcascade_fullbody.xml')
-car_cascade = cv2.CascadeClassifier('haarcascade_cars.xml')
+car_cascade = cv2.CascadeClassifier('cars.xml')
 
 # Create lists to store trackers for pedestrians and cars
 pedestrian_trackers = []
